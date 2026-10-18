@@ -21,11 +21,11 @@ h3 {
 }
 
 h1 {
-  font-size: 180%;
+  font-size: 160%;
 }
 
 h2 {
-  font-size: 140%;
+  font-size: 130%;
   padding-bottom: 6px;
   border-bottom: 4px solid #ffcb05;
 }
@@ -102,12 +102,13 @@ img {
 }
 
 .nav-list a {
-  display: block;
+  display: grid;
+  align-items: center;
   height: 100%;
-  padding: 10px;
+  padding: 8px;
   border: 2px solid #00274c;
   border-radius: 8px;
-  font-size: 90%;
+  font-size: 85%;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -148,9 +149,10 @@ img {
 }
 
 .btn {
-  display: inline-block;
-  margin: 4px 8px 4px 0;
-  padding: 10px 20px;
+  display: block;
+  margin: 10px 0;
+  padding: 12px 20px;
+  text-align: center;
   border: 2px solid #00274c;
   border-radius: 25px;
   font-weight: bold;
