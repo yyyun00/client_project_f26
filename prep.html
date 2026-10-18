@@ -3,399 +3,490 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Resources for preparing for and starting a UMSI engaged learning experience, from self-reflection to partner kickoff meetings."
+    />
     <title>
       Preparing &amp; Starting Your Experience | UMSI Engaged Learning
     </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <a href="#main">Skip to Main Content</a>
-      <img
-        src="images/UMSI_signature_vertical_informal_solidblue.jpg"
-        alt="UMSI Logo"
-      />
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li>
-            <a href="prep.html">Preparing &amp; Starting Your Experience</a>
-          </li>
-          <li><a href="during.html">During Your Experience</a></li>
-          <li><a href="next.html">Wrap-Up, Impact &amp; Next Steps</a></li>
-        </ul>
-      </nav>
-      <h1>Launch Your Engaged Learning Journey</h1>
-      <p>
-        Transform your academic foundation into real-world impact. The UMSI
-        Engaged Learning Office (ELO) guides you through the crucial early
-        stages of project work&mdash;from self-reflection and community context
-        to team charters and initial client kickoff.
-      </p>
-      <p><a href="#phase-1">Phase 1: Preparing</a></p>
-      <p><a href="#phase-2">Phase 2: Starting</a></p>
+    <header class="site-header" id="top">
+      <a class="skip-link" href="#main">Skip to Main Content</a>
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <img
+            src="images/UMSI_signature_vertical_informal_solidblue.jpg"
+            alt="UMSI Engaged Learning home"
+          />
+        </a>
+        <nav aria-label="Main">
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="prep.html" class="current" aria-current="page"
+                >Preparing &amp; Starting Your Experience</a
+              >
+            </li>
+            <li><a href="during.html">During Your Experience</a></li>
+            <li><a href="next.html">Wrap-Up, Impact &amp; Next Steps</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main id="main">
-      <section>
-        <h2>At a Glance</h2>
-        <p>On this page, you will:</p>
-        <ul>
-          <li>
-            Reflect on your identity, assumptions, and the community you will
-            work with.
-          </li>
-          <li>
-            Understand program requirements and the roles your team will take
-            on.
-          </li>
-          <li>Reach out to your partner and run a productive first meeting.</li>
-          <li>Document team commitments and scope agreements.</li>
-        </ul>
-
-        <img
-          src="images/UMSI_Orientation.jpg"
-          alt="A group of students gather around a table and discuss a project together."
-          width="500"
-        />
-      </section>
-
-      <section>
-        <h2>Why Engaged Learning Starts Before the Work Begins</h2>
-        <p>
-          Engaged learning at UMSI is fundamentally different from traditional
-          classroom assignments. You are stepping out of controlled environments
-          and into complex, unscripted ecosystems where technical solutions
-          intersect with human lives, organizational cultures, and real
-          community needs.
-        </p>
-        <p>
-          The initial phase of a project is rarely about jumping straight into
-          execution&mdash;it is about building the foundation for ethical,
-          sustainable engagement. Taking time to reflect on your own
-          positionality, audit your team's collective skills, and listen deeply
-          to your partner's goals prevents project failure down the line. When
-          you ground your project in mutual respect, clear boundaries, and
-          honest communication from Day 1, you transform a simple class
-          deliverable into a reciprocal partnership that creates authentic value
-          for everyone involved.
-        </p>
-      </section>
-
-      <section id="phase-1">
-        <h2>Phase 1: Preparing for the Experience</h2>
-        <p>
-          Setting the foundation, understanding community context, and
-          evaluating team readiness before work begins.
-        </p>
-
-        <section>
-          <h3>Value &amp; Narrative</h3>
+      <section class="hero">
+        <div class="container">
+          <p class="step-label">Step 1 of 3</p>
+          <h1>Launch Your Engaged Learning Journey</h1>
           <p>
-            Before writing code, sketching wireframes, or analyzing datasets,
-            engaged learners must cultivate social identity awareness and
-            ethical humility. Entering a community or client environment without
-            examining your own assumptions can lead to misaligned expectations
-            or unintended harm. Preparing thoughtfully allows you to approach
-            partners not as an outside "expert" fixing a problem, but as a
-            collaborative learner working alongside stakeholders.
+            Transform your academic foundation into real-world impact. The UMSI
+            Engaged Learning Office (ELO) guides you through the crucial early
+            stages of project work&mdash;from self-reflection and community
+            context to team charters and initial client kickoff.
+          </p>
+          <nav aria-label="Engaged learning stages">
+            <ol class="journey">
+              <li>
+                <a href="prep.html" class="current" aria-current="step"
+                  >Step 1: Prepare &amp; Start</a
+                >
+              </li>
+              <li><a href="during.html">Step 2: During Your Experience</a></li>
+              <li><a href="next.html">Step 3: Wrap-Up &amp; Next Steps</a></li>
+            </ol>
+          </nav>
+        </div>
+      </section>
+
+      <div class="container content">
+        <section class="section split">
+          <div class="glance">
+            <h2>At a Glance</h2>
+            <p>On this page, you will:</p>
+            <ul>
+              <li>
+                Reflect on your identity, assumptions, and the community you
+                will work with.
+              </li>
+              <li>
+                Understand program requirements and the roles your team will
+                take on.
+              </li>
+              <li>
+                Reach out to your partner and run a productive first meeting.
+              </li>
+              <li>Document team commitments and scope agreements.</li>
+            </ul>
+            <p class="jump">
+              Jump to: <a href="#phase-1">Phase 1: Preparing</a> ·
+              <a href="#phase-2">Phase 2: Starting</a>
+            </p>
+          </div>
+          <img
+            class="photo"
+            src="images/UMSI_Orientation.jpg"
+            alt="A group of students gather around a table and discuss a project together."
+          />
+        </section>
+
+        <section class="section">
+          <h2>Why Engaged Learning Starts Before the Work Begins</h2>
+          <p>
+            Engaged learning at UMSI is fundamentally different from traditional
+            classroom assignments. You are stepping out of controlled
+            environments and into complex, unscripted ecosystems where technical
+            solutions intersect with human lives, organizational cultures, and
+            real community needs.
+          </p>
+          <p>
+            The initial phase of a project is rarely about jumping straight into
+            execution&mdash;it is about building the foundation for ethical,
+            sustainable engagement. Taking time to reflect on your own
+            positionality, audit your team's collective skills, and listen
+            deeply to your partner's goals prevents project failure down the
+            line. When you ground your project in mutual respect, clear
+            boundaries, and honest communication from Day 1, you transform a
+            simple class deliverable into a reciprocal partnership that creates
+            authentic value for everyone involved.
           </p>
         </section>
 
-        <section>
-          <h3>Focus &amp; Objectives</h3>
-          <ul>
-            <li>
-              <strong>Social &amp; Community Awareness:</strong> Examine
-              personal identity, privilege, and community dynamics using civic
-              engagement frameworks.
-            </li>
-            <li>
-              <strong>Expectation &amp; Role Alignment:</strong> Understand
-              program requirements, project commitments, and leadership
-              responsibilities.
-            </li>
-            <li>
-              <strong>Initial Scoping:</strong> Assess organizational needs and
-              evaluate initial project viability.
-            </li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Featured Resources &amp; Handouts for Preparing</h3>
-          <table>
-            <caption>
-              Phase 1 resources, with the type of each resource and what it
-              helps you do
-            </caption>
-            <thead>
-              <tr>
-                <th scope="col">Resource</th>
-                <th scope="col">Type</th>
-                <th scope="col">Purpose</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">
-                  <a
-                    href="https://sites.lsa.umich.edu/equitable-teaching/social-identity-snapshot"
-                    >Social Identity Snapshot</a
-                  >
-                </th>
-                <td>Tool</td>
-                <td>
-                  Diagnostic tool to reflect on self-awareness and positionality
-                  before entering community contexts.
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  <a
-                    href="https://docs.google.com/document/d/1Qt9YeStVwDHjwJhOLAz42JSNQR2lFMurdUtxtdrGkuc/edit?tab=t.0#heading=h.ch0bvccjkrzn"
-                    >"Check Yourself" Community Engagement Checklist</a
-                  >
-                </th>
-                <td>Checklist</td>
-                <td>
-                  Quick audit for personal assumptions and ethical readiness.
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  <a
-                    href="https://drive.google.com/file/d/1zc1RNlrDxV51-muOERdDTnINQcquJpOA/view?usp=sharing"
-                    >IAP2 Spectrum of Public Participation</a
-                  >
-                </th>
-                <td>Framework</td>
-                <td>
-                  Framework for understanding levels of community involvement
-                  and decision-making power.
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  <a
-                    href="https://docs.google.com/document/d/1TrEDolwmOIlXgYgAP9VvlOGoYOwFfe6KxzZOgZSVYVw/edit?usp=drive_link"
-                    >Project Scoping Handout &amp; Terms</a
-                  >
-                </th>
-                <td>Handout</td>
-                <td>
-                  Guidance on translating partner needs into realistic project
-                  goals.
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  <a
-                    href="https://docs.google.com/document/d/1AexsV_JeSd0kRUBbcifZpfBu6y6Zi8Y0iJScp1I3gkM/edit?usp=drive_link"
-                    >Student Org Officer Guide</a
-                  >
-                  and
-                  <a
-                    href="https://docs.google.com/document/u/0/d/1uwOOS0TrXWzcSShj8DUFpckWo0t1UNu_Q7WVbZnLhX0/edit"
-                    >Project Manager Guide</a
-                  >
-                </th>
-                <td>Guide</td>
-                <td>
-                  Roles, expectations, and commitments for student organization
-                  leaders.
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  <a
-                    href="https://docs.google.com/document/d/1U4lCNGyWKJ3C2i_VgFqAR45Z4zF1FehuthuqT-M2wdI/edit?usp=drive_link"
-                    >Project Manager Commitment Form</a
-                  >
-                </th>
-                <td>Form</td>
-                <td>
-                  Formal agreement outlining responsibilities for student leads.
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  <a
-                    href="https://docs.google.com/document/d/1twc-7TYWmb_PNrOBiDI1NuJqJAuhluTICr22GRd_NLc/edit?usp=drive_link"
-                    >Project Management Worksheet</a
-                  >
-                </th>
-                <td>Worksheet</td>
-                <td>
-                  Guidance on clarifying the project scope and objectives, team
-                  roles, and timeline. This worksheet can be used by the project
-                  team and shared with the client.
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
-      </section>
-
-      <section id="phase-2">
-        <h2>Phase 2: Starting the Experience</h2>
-        <p>
-          Establishing professional communication, conducting initial meetings,
-          and finalizing partnership agreements.
-        </p>
-
-        <section>
-          <h3>Value &amp; Narrative</h3>
-          <p>
-            First impressions shape the trajectory of a partnership. The
-            starting phase is where abstract project ideas turn into structured,
-            professional commitments. By establishing clear team contracts,
-            co-creating agendas, and aligning on project scope early, you build
-            psychological safety within your team and trust with your client.
-            Learning how to navigate early ambiguity is one of the most valuable
-            professional capabilities you will gain at UMSI.
+        <section class="section" id="phase-1">
+          <h2>Phase 1: Preparing for the Experience</h2>
+          <p class="lead">
+            Setting the foundation, understanding community context, and
+            evaluating team readiness before work begins.
           </p>
+
+          <div class="two-col">
+            <section class="narrative">
+              <h3>Value &amp; Narrative</h3>
+              <p>
+                Before writing code, sketching wireframes, or analyzing
+                datasets, engaged learners must cultivate social identity
+                awareness and ethical humility. Entering a community or client
+                environment without examining your own assumptions can lead to
+                misaligned expectations or unintended harm. Preparing
+                thoughtfully allows you to approach partners not as an outside
+                "expert" fixing a problem, but as a collaborative learner
+                working alongside stakeholders.
+              </p>
+            </section>
+
+            <section>
+              <h3>Focus &amp; Objectives</h3>
+              <ul class="feature-list">
+                <li>
+                  <strong>Social &amp; Community Awareness</strong> Examine
+                  personal identity, privilege, and community dynamics using
+                  civic engagement frameworks.
+                </li>
+                <li>
+                  <strong>Expectation &amp; Role Alignment</strong> Understand
+                  program requirements, project commitments, and leadership
+                  responsibilities.
+                </li>
+                <li>
+                  <strong>Initial Scoping</strong> Assess organizational needs
+                  and evaluate initial project viability.
+                </li>
+              </ul>
+            </section>
+          </div>
+
+          <section>
+            <h3>Featured Resources &amp; Handouts for Preparing</h3>
+            <p class="scroll-hint">
+              On small screens, swipe sideways to see the full table.
+            </p>
+            <div
+              class="table-wrap"
+              tabindex="0"
+              role="region"
+              aria-label="Featured Resources and Handouts for Preparing table"
+            >
+              <table>
+                <caption>
+                  Phase 1 resources, with the type of each resource and what it
+                  helps you do
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Resource</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Purpose</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">
+                      <a
+                        href="https://sites.lsa.umich.edu/equitable-teaching/social-identity-snapshot"
+                        >Social Identity Snapshot</a
+                      >
+                    </th>
+                    <td>Tool</td>
+                    <td>
+                      Diagnostic tool to reflect on self-awareness and
+                      positionality before entering community contexts.
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <a
+                        href="https://docs.google.com/document/d/1Qt9YeStVwDHjwJhOLAz42JSNQR2lFMurdUtxtdrGkuc/edit?tab=t.0#heading=h.ch0bvccjkrzn"
+                        >"Check Yourself" Community Engagement Checklist</a
+                      >
+                    </th>
+                    <td>Checklist</td>
+                    <td>
+                      Quick audit for personal assumptions and ethical
+                      readiness.
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <a
+                        href="https://drive.google.com/file/d/1zc1RNlrDxV51-muOERdDTnINQcquJpOA/view?usp=sharing"
+                        >IAP2 Spectrum of Public Participation</a
+                      >
+                    </th>
+                    <td>Framework</td>
+                    <td>
+                      Framework for understanding levels of community
+                      involvement and decision-making power.
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <a
+                        href="https://docs.google.com/document/d/1TrEDolwmOIlXgYgAP9VvlOGoYOwFfe6KxzZOgZSVYVw/edit?usp=drive_link"
+                        >Project Scoping Handout &amp; Terms</a
+                      >
+                    </th>
+                    <td>Handout</td>
+                    <td>
+                      Guidance on translating partner needs into realistic
+                      project goals.
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <a
+                        href="https://docs.google.com/document/d/1AexsV_JeSd0kRUBbcifZpfBu6y6Zi8Y0iJScp1I3gkM/edit?usp=drive_link"
+                        >Student Org Officer Guide</a
+                      >
+                      and
+                      <a
+                        href="https://docs.google.com/document/u/0/d/1uwOOS0TrXWzcSShj8DUFpckWo0t1UNu_Q7WVbZnLhX0/edit"
+                        >Project Manager Guide</a
+                      >
+                    </th>
+                    <td>Guide</td>
+                    <td>
+                      Roles, expectations, and commitments for student
+                      organization leaders.
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <a
+                        href="https://docs.google.com/document/d/1U4lCNGyWKJ3C2i_VgFqAR45Z4zF1FehuthuqT-M2wdI/edit?usp=drive_link"
+                        >Project Manager Commitment Form</a
+                      >
+                    </th>
+                    <td>Form</td>
+                    <td>
+                      Formal agreement outlining responsibilities for student
+                      leads.
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <a
+                        href="https://docs.google.com/document/d/1twc-7TYWmb_PNrOBiDI1NuJqJAuhluTICr22GRd_NLc/edit?usp=drive_link"
+                        >Project Management Worksheet</a
+                      >
+                    </th>
+                    <td>Worksheet</td>
+                    <td>
+                      Guidance on clarifying the project scope and objectives,
+                      team roles, and timeline. This worksheet can be used by
+                      the project team and shared with the client.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
         </section>
 
-        <section>
-          <h3>Focus &amp; Objectives</h3>
-          <ul>
-            <li>
-              <strong>Partner Communication:</strong> Draft clear, professional
-              outreach to launch working relationships.
-            </li>
-            <li>
-              <strong>First Meetings:</strong> Structure productive kickoff
-              meetings that define roles and project bounds.
-            </li>
-            <li>
-              <strong>Formalizing Agreements:</strong> Document team commitments
-              and scope agreements shared by all stakeholders.
-            </li>
-          </ul>
+        <section class="section" id="phase-2">
+          <h2>Phase 2: Starting the Experience</h2>
+          <p class="lead">
+            Establishing professional communication, conducting initial
+            meetings, and finalizing partnership agreements.
+          </p>
+
+          <div class="two-col">
+            <section class="narrative">
+              <h3>Value &amp; Narrative</h3>
+              <p>
+                First impressions shape the trajectory of a partnership. The
+                starting phase is where abstract project ideas turn into
+                structured, professional commitments. By establishing clear team
+                contracts, co-creating agendas, and aligning on project scope
+                early, you build psychological safety within your team and trust
+                with your client. Learning how to navigate early ambiguity is
+                one of the most valuable professional capabilities you will gain
+                at UMSI.
+              </p>
+            </section>
+
+            <section>
+              <h3>Focus &amp; Objectives</h3>
+              <ul class="feature-list">
+                <li>
+                  <strong>Partner Communication</strong> Draft clear,
+                  professional outreach to launch working relationships.
+                </li>
+                <li>
+                  <strong>First Meetings</strong> Structure productive kickoff
+                  meetings that define roles and project bounds.
+                </li>
+                <li>
+                  <strong>Formalizing Agreements</strong> Document team
+                  commitments and scope agreements shared by all stakeholders.
+                </li>
+              </ul>
+            </section>
+          </div>
+
+          <section>
+            <h3>Featured Resources &amp; Handouts for Starting</h3>
+            <p class="scroll-hint">
+              On small screens, swipe sideways to see the full table.
+            </p>
+            <div
+              class="table-wrap"
+              tabindex="0"
+              role="region"
+              aria-label="Featured Resources and Handouts for Starting table"
+            >
+              <table>
+                <caption>
+                  Phase 2 resources, with the type of each resource and what it
+                  helps you do
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Resource</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Purpose</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">
+                      <a
+                        href="https://docs.google.com/document/d/1fWFXwoW5fKX_Tctn97Gio5XZDwILNlqIOyKKE8Yk5J0/edit?usp=drive_link"
+                        >Initial Client Email Examples</a
+                      >
+                    </th>
+                    <td>Email templates</td>
+                    <td>
+                      Plug-and-play email templates for first contact with
+                      clients and partners.
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <a
+                        href="https://docs.google.com/document/d/1ItXxYauAcPoaGMUZWuJsX-OLFfGmeBOWT7JNhoZxGyU/edit?usp=drive_link"
+                        >Initial Client Meeting Sample Agenda</a
+                      >
+                    </th>
+                    <td>Agenda template</td>
+                    <td>
+                      Step-by-step structure for running a professional kickoff
+                      call.
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <a
+                        href="https://ginsberg.umich.edu/article/campus-community-partnerships-toolkit"
+                        >Ginsberg Center Student-Client Partnership Toolkit</a
+                      >
+                    </th>
+                    <td>Toolkit</td>
+                    <td>
+                      Principles for building reciprocal, respectful community
+                      relationships.
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <a
+                        href="https://drive.google.com/file/d/12ealxkKCvOZajxK7doyUXu_k2LyKPUP2/view?usp=drive_link"
+                        >Student-Client Partnership Guide</a
+                      >
+                    </th>
+                    <td>Guide</td>
+                    <td>
+                      Standard guidelines for managing expectations and
+                      deliverables.
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <a
+                        href="https://docs.google.com/document/d/1y5Y2wc1ADz0n_ht26kPYlFK3Zm9i3UR_Z0OMWP3Q_xQ/edit?usp=drive_link"
+                        >Student Org-ELO Partnership Agreement Template</a
+                      >
+                    </th>
+                    <td>Template</td>
+                    <td>
+                      Formal contract establishing roles between student teams
+                      and ELO.
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <a
+                        href="https://docs.google.com/spreadsheets/d/1YeK2WerSbhaU5hjEg9wxdXmzBx9lgRy2yHBKAH-SxiA/edit?gid=166831640#gid=166831640"
+                        >SO-ELL Schedule</a
+                      >
+                    </th>
+                    <td>Schedule</td>
+                    <td>
+                      Overview of key milestones, deadlines, and submission
+                      dates.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
         </section>
 
-        <section>
-          <h3>Featured Resources &amp; Handouts for Starting</h3>
-          <table>
-            <caption>
-              Phase 2 resources, with the type of each resource and what it
-              helps you do
-            </caption>
-            <thead>
-              <tr>
-                <th scope="col">Resource</th>
-                <th scope="col">Type</th>
-                <th scope="col">Purpose</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">
-                  <a
-                    href="https://docs.google.com/document/d/1fWFXwoW5fKX_Tctn97Gio5XZDwILNlqIOyKKE8Yk5J0/edit?usp=drive_link"
-                    >Initial Client Email Examples</a
-                  >
-                </th>
-                <td>Email templates</td>
-                <td>
-                  Plug-and-play email templates for first contact with clients
-                  and partners.
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  <a
-                    href="https://docs.google.com/document/d/1ItXxYauAcPoaGMUZWuJsX-OLFfGmeBOWT7JNhoZxGyU/edit?usp=drive_link"
-                    >Initial Client Meeting Sample Agenda</a
-                  >
-                </th>
-                <td>Agenda template</td>
-                <td>
-                  Step-by-step structure for running a professional kickoff
-                  call.
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  <a
-                    href="https://ginsberg.umich.edu/article/campus-community-partnerships-toolkit"
-                    >Ginsberg Center Student-Client Partnership Toolkit</a
-                  >
-                </th>
-                <td>Toolkit</td>
-                <td>
-                  Principles for building reciprocal, respectful community
-                  relationships.
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  <a
-                    href="https://drive.google.com/file/d/12ealxkKCvOZajxK7doyUXu_k2LyKPUP2/view?usp=drive_link"
-                    >Student-Client Partnership Guide</a
-                  >
-                </th>
-                <td>Guide</td>
-                <td>
-                  Standard guidelines for managing expectations and
-                  deliverables.
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  <a
-                    href="https://docs.google.com/document/d/1y5Y2wc1ADz0n_ht26kPYlFK3Zm9i3UR_Z0OMWP3Q_xQ/edit?usp=drive_link"
-                    >Student Org-ELO Partnership Agreement Template</a
-                  >
-                </th>
-                <td>Template</td>
-                <td>
-                  Formal contract establishing roles between student teams and
-                  ELO.
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  <a
-                    href="https://docs.google.com/spreadsheets/d/1YeK2WerSbhaU5hjEg9wxdXmzBx9lgRy2yHBKAH-SxiA/edit?gid=166831640#gid=166831640"
-                    >SO-ELL Schedule</a
-                  >
-                </th>
-                <td>Schedule</td>
-                <td>
-                  Overview of key milestones, deadlines, and submission dates.
-                </td>
-              </tr>
-            </tbody>
-          </table>
+        <section class="section next-step">
+          <h2>Next Step: During Your Experience</h2>
+          <p>
+            Once your team has prepared, contacted your partner, and formalized
+            your agreements, move on to Phase 3 for tools on fieldwork, sponsor
+            updates, and mid-project feedback.
+          </p>
+          <a class="btn btn-maize" href="during.html"
+            >Go to During Your Experience <span aria-hidden="true">→</span></a
+          >
         </section>
-      </section>
-
-      <section>
-        <h2>Next Step: During Your Experience</h2>
-        <p>
-          Once your team has prepared, contacted your partner, and formalized
-          your agreements, move on to Phase 3. Find tools for fieldwork, sponsor
-          updates, and mid-project feedback in
-          <a href="during.html">During Your Experience</a>.
-        </p>
-      </section>
+      </div>
     </main>
 
     <!-- The At a Glance list, the Type column, and the Where to Go Next section were written with the help of Claude (Anthropic), September 2026. -->
 
-    <footer>
-      <p>
-        University of Michigan School of Information |
-        <a
-          href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office"
-          >Engaged Learning Office</a
-        >
-      </p>
-      <address>
-        <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>
-      </address>
-      <p>&copy; 2026 Regents of the University of Michigan</p>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <p class="footer-title">
+              University of Michigan School of Information
+            </p>
+            <p>
+              <a
+                href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office"
+                >Engaged Learning Office</a
+              >
+            </p>
+          </div>
+          <div>
+            <p class="footer-title">Contact</p>
+            <address>
+              <a href="mailto:umsi.engagement@umich.edu"
+                >umsi.engagement@umich.edu</a
+              >
+            </address>
+          </div>
+          <div>
+            <p class="footer-title">Navigate</p>
+            <p><a href="#top">Back to top</a></p>
+          </div>
+        </div>
+        <p class="footer-bottom">
+          &copy; 2026 Regents of the University of Michigan
+        </p>
+      </div>
     </footer>
   </body>
 </html>
